@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Proyecto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8def6;
+      margin: 0;
+      padding: 20px 0;
+    }
+ 
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+ 
+    .banner {
+      width: 100%;
+      height: 200px;
+      background-image: url("banner.jpg");
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+ 
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+ 
+    .button:hover {
+      background-color: #555;
+    }
+ 
+    .product {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+ 
+    .product img {
+      width: 300px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+ 
+    .product p {
+      color: #333;
+      font-size: 16px;
+    }
+ 
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .btn-verde {
+        background-color: rgb(57, 57, 57);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+    }
+
+    .btn-verde {
+        background-color: rgb(50, 50, 50);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+    }
+    .hearder {
+        color: rgb(27, 15, 201);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        font-size: 17px;
+        margin: 6px 4px;
+        transition-duration: 0.4
+    }
+    .Date {
+        color: rgb(185, 184, 206);
+        border: none;
+        padding: 10px 25px;
+        cursor: pointer;
+        text-align: medium;
+        display: inline-block;
+        font-size: 29px;
+        margin: 6px 4px;
+        transition-duration: 0.4
+
+
+    }
+    .Import {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+    .Oper {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+    .Lim {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+    .Lear {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+    
+    .Prec {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+
+    .Cont {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+    .PBD {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+    .Data {
+        color: rgb(48, 47, 56);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        display: -moz-grid-line;
+        font-size: 20px;
+        margin: 8px 0px;
+        transition-duration: 0.4
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="header">
+    <img src="LogoPython.png" align="right" width="80" height="65"><hr>
+    <h1 align="center"> Dominio de Paradigmas de Programacion</h1> <hr>
+    </div>  
+
+   <div class="hearder"> 
+   <h1>¿Cual es el objetivo</h1>
+   </div>
+   
+  <p>
+    Dentro de esta pagina web mostraremos las tareas hechas dentro de el modulo de "Dominio de paradigmas de progrmacion" esto mediante botones de accion los cuales contienen los archivos previos para vizualizar el contenido.
+    asu vez tambien abordartemos un poco de como se creo esta pagina web y como fue generada, que es lo que incluimos y como lo realizamos, dentro de esta pagina no solo vinenen archivos en python 
+    si no tambien archivos de png y pdf las cuales contienen informacion que hacen referencia a al actual proyecto a presentar.
+    
+  </p>
+
+<h1>¿Como se realizo la pagina web?</h1>
+<p> Esta pagina web se creo mediante codigo html la cual tambien tienne una convinacion de otros codigos
+   como lo seria css, javascrip y un poco de php esto con el fin de lograr ciertas acciones y ciertos tipos de encabezado.
+  asi mismo tuvimos una planificacion previa acerca de la estrucutura de lam pagina web y como abordariamos los temas propuestos dentro 
+de los apartados de tareas de el prersente modulo, dentro de esta pagina se incluyen ciertas herramientas que se podrian expresar como estandar.</p>
+
+  <div class="product"> 
+    
+    <div class="Date">
+  
+    <h1 class="Import">Importacion de datos: </h1>
+    <img src="importJ.jfif" align="center"  width="90" height="80" alt="Importacion de datos">
+<p> El código Python en un módulo obtiene acceso al código en otro módulo por el proceso de importarlo. La instrucción import es la forma más común de invocar la maquinaria de importación, pero no es la única manera. Funciones como importlib.import_module() y built-in __import__() también se pueden utilizar para invocar la maquinaria de importación.
+
+  La instrucción import combina dos operaciones; busca el módulo con nombre y, a continuación, enlaza los resultados de esa búsqueda a un nombre en el ámbito local. La operación de búsqueda de la instrucción import se define como una llamada a la función __import__(), 
+  con los argumentos adecuados. El valor retornado de __import__() se utiliza para realizar la operación de enlace de nombre de la instrucción import. 
+  Consulte la instrucción import para obtener los detalles exactos de esa operación de enlace de nombres.
+</p>
+</div>
+    <a href="Import.jpg" class="button">Ver detalles</a>
+  </div>
+
+
+  <h1 class="Lear">Machine Learning:</h1>
+  <div class="product">
+    <img src="Learn.jfif" alt="Machine Learning">
+    <p>Tecnicas analiticas de Machine Learning</p>
+    <p>Las técnicas de Machine Learning permiten a los algoritmos identificar patrones complejos entre gran cantidad de datos, infiriendo así sus propias reglas para detectar patrones similares en nuevos conjuntos de datos.
+      Se crean sistemas inteligentes que mejoran de forma autónoma viendo datos. Así pueden aprender a predecir comportamientos, detectar similitudes o anomalías automáticamente o tomar las decisiones adecuadas.</p>
+    <a href="Learning.py" class="button">Ver detalles</a>
+    
+    
+  </div>
+ 
+  <h1 class="Oper"> Operaciones con datos:</h1>
+  <div class="product">
+    <img src="Vec.png" alt="Operaciones con datos">
+    <p>Creando operaciones utilizando Python</p>
+    <p>Para la creacion de operaciones con datos utilizamos difererntes conceptos entre varios nos piden
+      realicar una operacion de cualquier tipo, con el fin de realizar una Predicciones
+      esta puede variar ya que nosotros nos enfocamos en las predicciones de escuelas y empresas
+      asi como tambien promedios.
+    </p>
+    <a href="2.10.py" class="button">Ejemplo</a>
+    <a href="Actividad 1-S4 Operaciones con datos.pdf",  class="button">Reporte</a>
+    
+
+    </a>
+    
+
+  </div>
+ <h1 class="Lim"> Limpieza de Datos</h1>
+  <div class="product">
+    <img src="imagen" alt="Limpieza de datos ">
+    <p>La limpieza de datos es un paso necesario antes de realizar cualquier tarea relevante en análisis/ciencia de datos, desde elaborar un simple análisis gráfico, hasta implementar un modelo de aprendizaje automático.
+      Asi mismo dentro de el codigo podemos realizar una grafica la cual nos proporciona cierta informacion
+      acerca de una reduccion de oxigeno.
+    </p>
+    <a href="Limpieza.py" class="button">Ver detalles</a>
+
+ 
+    <div class="product">
+      <h1 class="Prec">Predictores:</h1>
+      <img src="Pres.webp" alt="Machine Learning">
+      <p>Entrenamiento y predictores</p>
+      <p> En este caso para la creacion de los codigos que estan dentro de los botone, utilizamos
+        una tabla de excel la cual exportamos y la adjuntamos al modulo de python para poder tomar
+        los datos sin tener que escribirlos dentro de el codigo, asi de esta manera logramos sacar un predictor 
+        en el apartado de "Ajuste" asu vez generamos una grafica de dispersion para mostrara detalle el resultado.
+      </p>
+      <a href="Conjunto de datos.py" class="button">Datos Base</a>
+      <a href="Coeficiente R.py" class="button">Coeficiente</a>
+      <a href="Ajuste de datos.py" class="button">Ajustes</a>
+
+
+      <div class="product">
+        <h1 class="Cont">Estructuras de control:</h1>
+        <img src="if.jpg" alt="Machine Learning">
+        <p>IF-ELIF-ELSE y For, While</p>
+        <p>
+          La estructura if/elif/else es una forma común de controlar el flujo de un programa, lo que te permite ejecutar bloques de código específicos según el
+           valor de algunos datos. Sentencia if Si la condición que sigue a la palabra clave if se evalúa como verdadera, el bloque de código se ejecutará. 
+           Hay que tener en cuenta que los paréntesis no se utilizan antes y después de la verificación de condición como en otros idiomas.
+          </p>
+           <p>
+            Tambien dentro de esta adjuntamos la similitud de for y while las cuales se concentran como bucles
+           los cualses cuentas con una diferncia, estos sirven dentro de las estrucuturas de control debido a que no se tiene que estandar
+           depurando un programa para realizar cierta accion, al contrario con una sola depuracion este 
+           cumplira con su cometido y se ejecutara hasta que llegue a suy rango o fin.
+
+         </p>
+        <a href="EJERCIOUWU2.zip" class="button">Ver detalles</a>
+        <a href="bucle for y while.docx" class="button">Investigacion</a>
+        <a href="prop2.zip" class="button">For y While</a>
+        
+        
+      </div>
+ 
+      
+      <div class="product">
+       <h1 class="PBD">Promedio, Busqueda y Directorio</h1>
+        <p>
+          Listas en Python:
+En Python, una lista es una estructura de datos que permite almacenar y organizar elementos de cualquier tipo. Se define mediante corchetes [] y los elementos se separan por comas. Las listas son mutables, lo que significa que sus elementos pueden ser modificados después de la creación.</p>
+
+<p>Promedio en Python:
+El promedio en Python se refiere al valor medio de un conjunto de números. Se calcula sumando todos los elementos y dividiendo la suma por la cantidad de elementos en el conjunto. Es una medida estadística comúnmente utilizada para representar la tendencia central de un conjunto de datos numéricos.</p>
+
+<p>úsqueda en Listas:
+La búsqueda en listas en Python implica encontrar la posición o presencia de un elemento específico en una lista. Puedes utilizar métodos como index() para obtener el índice de un elemento en la lista o el operador in para verificar si un elemento está presente.</p>
+
+<p>Listas como Directorio:
+Cuando se menciona "listas como directorio" en Python, generalmente se refiere a la utilización de listas para almacenar información organizada, simulando un directorio o estructura similar. Cada elemento de la lista puede contener información relacionada o representar un "registro" en el directorio simulado.
+        </p>
+        <a href="Listasuiwu.zip" class="button">Promedios</a>
+        <a href="ordenamiento.py" class="button">Busqueda</a>
+        <a href="Direct.py" class="button">Directorio </a>
+  
+      </div>
+ 
+      
+
+      <div class="product">
+        <h1 class="Data">Poyecto Data Sience:</h1>
+        <img src="dataS.jfif" alt="Machine Learning">
+        <p>implica utilizar técnicas y herramientas para analizar datos con el objetivo de resolver problemas o responder preguntas específicas. Esto incluye la obtención, exploración y limpieza de datos, la selección y entrenamiento de modelos, la evaluación de resultados, y la comunicación de conclusiones. Los proyectos de Data Science abordan una amplia gama de problemas, desde análisis de negocios hasta predicciones y optimización de procesos.</p>
+        <a href="Practica1.py" class="button">Practica</a>
+        <a href="fifa-world-cup-historial_data.csv" class="button">Data</a>
+        <a href="proyecto3.py" class="button">Continuacion</a>
+        
+      </div>
+ 
+      
+
+
+      <div class="product">
+        <h1 class="Data">APiRest:</h1>
+        
+        <p>API REST (Interfaz de Programación de Aplicaciones basada en Transferencia de Estado Representacional) es un conjunto de reglas y convenciones arquitectónicas para diseñar servicios web. Se centra en la manipulación de recursos identificados por URIs mediante métodos HTTP estándar, como GET, POST, PUT y DELETE. Los datos se representan comúnmente en formatos como JSON o XML. La arquitectura es sin estado, lo que significa que cada solicitud del cliente al servidor contiene toda la información necesaria. API REST se utiliza para permitir la comunicación eficiente entre sistemas distribuidos.</p>
+        <a href="panesitos.py" class="button">Ver detalles</a>
+        
+        
+      </div>
+ 
+      
+      <h1 class="Data">Soap web:</h1>
+      <div class="product">
+        
+        <p>SOAP (Simple Object Access Protocol):
+          SOAP es un protocolo estándar de comunicación utilizado en servicios web. Proporciona una estructura para el intercambio de mensajes entre aplicaciones a través de redes, utilizando XML para la representación de datos. SOAP define reglas para la creación de mensajes, especificando el formato y la secuencia de las operaciones en servicios web.
+          
+          WSDL (Web Services Description Language):
+          WSDL es un lenguaje de descripción de servicios web que define la interfaz de un servicio. Describe la ubicación del servicio, los métodos disponibles, los tipos de datos utilizados y la estructura de las operaciones. WSDL permite a los</p>
+        <a href="Soap.py" class="button">Soap</a>
+        <a href="main.py" class="button">Ver detalles</a>
+        <a href="SoapWeb.py" class="button">Ver detalles</a>
+        
+        
+      </div>
+ 
+      
+  
+</head>
+
+
+</html>
+  </div>
+ 
+  <div class="footer">
+    <p>© 2023 Ciencia De Datos e Inteligencia Artifical Grupo: 305</p>
+  </div>
+</body>
+</html>
